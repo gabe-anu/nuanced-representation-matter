@@ -1,6 +1,6 @@
 Submitted by: **Gabriel Anurum-Anyanwu**
 
-Live Demo: [[https://horoscope-lime.vercel.app/](https://nuanced-representation-matter.vercel.app/)
+Live Demo: [https://nuanced-representation-matter.vercel.app/](https://nuanced-representation-matter.vercel.app/)
 
 
 
