@@ -1,0 +1,207 @@
+html {
+    
+  height: 100%;
+  width: 100%;
+}
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+body {
+
+    /* Add a background color or image */
+    background-color: FFD1F3;
+    background-image: url('');
+
+    /* Customize the font, size, and color for text*/
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+
+    /* Adjust the padding and margins */
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {
+  background-color: #FFFED1
+}
+
+p {
+  background-color: #D1FFFC
+}
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+button {
+  background-color:  #E0FFD1;
+  border: border;
+  color:purple;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+
+
+
+/* Select and style elements by class name or ID */
+
+
+/* Example: This styles elements with class="header"*/
+/* .header-container {
+
+} */
+
+
+/* Example: This styles an element with an id="header-img" */
+/* #header-img {
+
+} */
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+.navbar ul {
+    list-style: none;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width:  100%;
+    margin-bottom: 0;
+
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    display: block;
+    font-family: Arial;
+    padding: 15px 15px;
+    background-color: E0FFD1;
+    color:purple;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+
+
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: black;
+  color: purple;
+}
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50 ;
+}
+.petition-para {
+  width: 55%;
+  padding-left: 10px;
+  
+}
+.signatures{
+  width: 45%;
+  padding-right: 10px;
+}
+/* Style the form */
+.revealable {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+#revealed-content-1 {
+  opacity: 1;
+  transform: translateY(0); /* Or -20px, your choice */
+}
+
+#revealed-content-2 {
+  opacity: 1;
+  transform: translateY(0); /* Or -20px, your choice */
+}
+#revealed-content-3 {
+  opacity: 1;
+  transform: translateY(0); /* Or -20px, your choice */
+}
+#revealed-content-4 {
+  opacity: 1;
+  transform: translateY(0); /* Or -20px, your choice */
+}
+
+/* CSS animation for the GIF image */
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to the GIF image */
+#gif-image {
+  animation: slideInFromTop 2s ease-in;
+}
