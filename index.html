@@ -1,83 +1,110 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
+<html lang="en">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+</style>
 
-  <img src="https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/buildAssets%2F609dUCj4ENA9yyzwh9VW%2Fdownload.jfif?alt=media&token=9ec91a15-3745-47fc-8a78-8aebfede4b9e" alt="Diversity in Media" width="500" height="300"/>
-    <title>Why Diversity and Positive Representation is Important in Media</title> <!-- the content here will only show in the tab and in the metadata about the page -->
-    
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
+<header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <br> <br>
+  <title>Nuanced Representation Matters</title>
+  <br><br>
+  <h1 id="gallery-header">Nuanced Representation Matters</h1>
+  <br> <br>
+  <img id="top-img" src="https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/buildAssets%2F609dUCj4ENA9yyzwh9VW%2Fdownload.jfif?alt=media&token=9ec91a15-3745-47fc-8a78-8aebfede4b9e" />
+
+  <nav>
+    <ul>
+      <li><a href="index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+        </svg>
+
+        </a></li>
+      <li><a href="hear.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cassette-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h.191l1.862-3.724A.5.5 0 0 1 4 10h8a.5.5 0 0 1 .447.276L14.31 14h.191a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zM4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2m8 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2M6 6a1 1 0 0 1 1-1h2a1 1 0 0 1 0 2H7a1 1 0 0 1-1-1" />
+          <path d="m13.191 14-1.5-3H4.309l-1.5 3z" />
+        </svg>
+        </a></li>
+      <!-- <li><a href="#projects-section">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-terminal-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1m-6.354-.354a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708L4.793 6.5z" />
+          </svg>
+        </a></li>
+      <li><a href="#contact-section">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+            <path
+              d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+            <path
+              d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+          </svg>
+        </a></li> -->
+    </ul>
+  </nav> 
+</header>
 
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+  </script>
+  <br>
+  <br>
+  <main>
+    <div id="outside-about-wrapper">
+      <section id="aboutme-section">
+        <br>
+        <h2>Initiative</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+        </svg>
 
-  <div class="revealable" id="revealed-content-1"> 
-      <h2>Page Still Under Construction Release TBD </h2>
-    <!--- Headings --->
-    <img  /> <!-- if you want to add an image, use this tag and link to the actual image location in your project with the src attribute -->
-    <h1 id="home" > Why Diversity and Positive Representation is Important in Media</h1>
-    <!-- <button type="button">Sources</button>
-    <button type="button">Videos</button> -->
-  </div>
-    <!--- About --->
-  <div class="revealable" id="revealed-content-2"> 
-    <h2 id="about"> art imitates life and life imitates art</h2>
-    <p>The purpose of the website is to hopefully illustrate how a nuanced dipiction, representation, and diversity of people especially marginlized indivduals in both media and entertainment is emprative to fosters media that not only resonates with audiences from different backgrounds but also helps in promoting better understanding, empathy, and appreciation for one another, while also contributing toward illustrating a nuanced and comprehensive portrayal of the world we live in.
-    </p>
 
-  </div>
-     <div class="revealable" id="revealed-content-3"> 
-    <h2>Brith of  a Nation</h2>
-    <img 
-     src="https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/buildAssets%2F609dUCj4ENA9yyzwh9VW%2Fdownload.jpg?alt=media&token=4e990f72-21e0-46fe-a0e1-7f13a619222a" />
+        <div class="post-about-wrapper">
+          <img src= "https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/buildAssets%2FN2QCzeMHGUCkziFTkzUd%2Fsplatoon-3-splatfest-helados-cropped.jpg?alt=media&token=b9dcd113-4e1a-443c-9059-cc693058d644" class= "gallery-item" id="item-10">
+          <br>
+          <br>
+          <p>
+            The goal of this website is to hopefully illustrate how nuanced dipiction, representation, and diversity
+            of people especially marginlized indivduals in both media and entertainment is emprative to fosters media
+            that not only resonates with audiences from different backgrounds but also helps in promoting better
+            understanding, empathy, and appreciation for one another, while also contributing toward illustrating a
+            nuanced and comprehensive portrayal of the world we live in. (&gt;O.O)&gt;
+          </p>
+          <br>
+        </div>
+      </section>
+    </div>
+    <br>
+    <br>
 
-    <h3> A film with everlasting impact </h3>
-    <p id= "negative">Negetive depictions of marginalized minority groups in media can have real-life consequences that alter the way society not only views them but also justification how they should treat members of such minority groups based on stereotypes created through media. 
-    </p>
-  </div>
-   <div class="revealable" id="revealed-content-4"> 
-    <h3>We must all act like said stereotypes ?</h3>
-    <p>Negetive depiction of marginalized minority groups can leave members of such groups feeling as if they need to exist in a box based on what stereotypes have been applied to them negatively affecting the way they view themselves of they are unable to adhere to such standards.
-    </p>
-      </div>
-<!---
-    <img src="" />
-    <h3>Where else else can this problem have lasting effects?</h3>
-    <p>Why?
-    </p>
-  --->
- 
-    <!--- News ---> <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
-  
 
-    <a class=""
-        href="">
-        <article>
-            <h3></h3>
-            <p></p>
-        </article>
-    </a>
-  <!-- Part 1: Navbar Starter Code -->
+  </main>
+</body>
 
-  
-  <div class="navbar">
-    <ul>
+<footer>
 
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#negative">Negative Portrayals</a></li>
-      <li><a href="#">Postive Portrayals</a></li>
-      <li ><button id="theme-button">Dark Mode</button></li>
-      <!-- Stretch Challenge: Drop Down -->
-    </ul>
-  </div>
-  <!-- Part 2: Flexbox Layout Stater Code -->
+</footer>
 
-  </body>
-  <div class="container">
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-  </div>
-
-  <script src="index.js"></script>
-  </html>
+</html>
