@@ -51,12 +51,15 @@ nav li {
   border: 2px solid;
   border-radius: 5px;
   list-style-type: none;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
   
 }
 
 nav > ul {
   margin: 5px 0;
+  padding: 7px;
+  justify-content: center;
 }
 
 .food-gallery li {
@@ -67,12 +70,12 @@ nav > ul {
   list-style-type: none;
   display: inline-flex;
   justify-content: center;
+  text-align: center;
 }
 
 .food-gallery  > ul {
   margin: 5px 0;
 }
-
 
 /* div{ */
   /* border: 2px solid #eed5fc; */
