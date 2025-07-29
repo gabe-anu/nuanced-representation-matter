@@ -1,13 +1,13 @@
 Submitted by: **Gabriel Anurum-Anyanwu**
 
-Live Demo: [https://horoscope-lime.vercel.app/](https://horoscope-lime.vercel.app/)
+Live Demo: [https://nuanced-representation-matter.vercel.app/](https://nuanced-representation-matter.vercel.app/)
 
 
 
 
 ## Notes
 
-**070425:** This is my portfolio website I made as a personal project for myself. Had a lot of fun with this project especially the CSS which allowed me to better play around with design concepts and styles. I'm proud of myself for finding ways to implement icons as links for the nav bar and the pixel text font. I'm excited to revist this website later to iterate on it later with JavaScript and React 
+**071925:** Developing a website to discuss and educate on the importance of more nuanced depiction of people, especially those from marginalized groups in media and entertainment, to promote better understanding, empathy, and appreciation for one another, and illustrating a realistic reflection and comprehensive portrayal of the world we live in.
 
 Time spent: **48** hours spent in total
 
